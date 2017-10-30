@@ -3,6 +3,9 @@
 {% load static %}
 
 {% block content %}
+<h1>Site Upload Hub</h1>
+  <p>Site Upload Hub</p>
+<ul>
   <form method="post" enctype="multipart/form-data">
     {% csrf_token %}
     <input type="file" name="myfile">
@@ -12,5 +15,5 @@
   {% if uploaded_file_url %}
     <p>File uploaded at: <a href="{{ uploaded_file_url }}">{{ uploaded_file_url }}</a></p>
   {% endif %}
-
+</ul>
 {% endblock %}
