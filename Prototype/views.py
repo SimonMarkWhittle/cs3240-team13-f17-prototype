@@ -13,3 +13,8 @@ def simple_upload(request):
             'uploaded_file_url': uploaded_file_url
         })
     return render(request, 'simple_upload.html')
+
+
+def display_upload(request, name, ext):
+
+    return render(request, 'view_upload.html')
