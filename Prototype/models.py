@@ -10,7 +10,7 @@ class Report(models.Model):
     company_name = models.CharField(max_length=100)
     CEO_name = models.CharField(max_length=100)
     company_phone = models.CharField(max_length=15)
-    company_email = models.EmailField()
+    company_email = models.EmailField(max_length=200)
     company_location = models.CharField(max_length=200)
     company_country = models.CharField(max_length=50)
     sector = models.CharField(max_length=100)
@@ -24,8 +24,7 @@ class Report(models.Model):
         """
         String for representing the Model object.
         """
-        return '%s, %s' % (self.report_name, self.company_name, self.CEO_name, self.company_phone, self.company_email, self.company_location, self.company_country,
-                           self.sector, self.industry, self.current_project, self.private_report, self.files_attached)
+        return '%s, %s, %s, %s,%s, %s, %s, %s, %s, %s,%s, %s' % (self.report_name, self.company_name, self.CEO_name, self.company_phone, self.company_email, self.company_location, self.company_country, self.sector, self.industry, self.current_project, self.private_report, self.files_attached)
 
     def get_absolute_url(self):
         """
