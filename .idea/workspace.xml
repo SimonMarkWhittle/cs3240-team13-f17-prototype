@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list id="9d4710a1-d410-4e71-af3d-e14cef130cbf" name="All the Things" comment="" />
     <list default="true" id="47a91f49-ced1-4248-98fd-ca0531284f08" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Prototype/templates/Prototype/upload.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Prototype/views.py" afterPath="$PROJECT_DIR$/Prototype/views.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,7 +22,7 @@
         <entry file="file://$PROJECT_DIR$/Prototype/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -128,9 +128,9 @@
         <option value="$PROJECT_DIR$/templates/base.html" />
         <option value="$PROJECT_DIR$/Prototype/urls.py" />
         <option value="$PROJECT_DIR$/CS3240GroupProjectPrototype/settings.py" />
-        <option value="$PROJECT_DIR$/Prototype/views.py" />
         <option value="$PROJECT_DIR$/Prototype/forms.py" />
         <option value="$PROJECT_DIR$/Prototype/models.py" />
+        <option value="$PROJECT_DIR$/Prototype/views.py" />
       </list>
     </option>
   </component>
@@ -167,29 +167,6 @@
             <path>
               <item name="cs3240-team13-f17-prototype" type="b2602c69:ProjectViewProjectNode" />
               <item name="cs3240-team13-f17-prototype" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cs3240-team13-f17-prototype" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cs3240-team13-f17-prototype" type="462c0819:PsiDirectoryNode" />
-              <item name="CS3240GroupProjectPrototype" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cs3240-team13-f17-prototype" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cs3240-team13-f17-prototype" type="462c0819:PsiDirectoryNode" />
-              <item name="Prototype" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cs3240-team13-f17-prototype" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cs3240-team13-f17-prototype" type="462c0819:PsiDirectoryNode" />
-              <item name="Prototype" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cs3240-team13-f17-prototype" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cs3240-team13-f17-prototype" type="462c0819:PsiDirectoryNode" />
-              <item name="Prototype" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="Prototype" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -277,9 +254,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="960" y="0" width="960" height="1040" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25111112" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25111112" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964602" sideWeight="0.5044444" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -531,11 +507,16 @@
     <entry file="file://$PROJECT_DIR$/Prototype/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uploads/^B9A47E0AECBA048F6AB3DEB50324E614E6CCE4B51E4CD67B2E^pimgpsh_thumbnail_win_distr.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
   </component>
