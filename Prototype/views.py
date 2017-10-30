@@ -14,3 +14,11 @@ def simple_upload(request):
             'uploaded_file_url': uploaded_file_url
         })
     return render(request, 'simple_upload.html')
+
+
+def display_upload(request, name, ext):
+
+    if ext in ['.jpg', '.gif', '.png']:
+        return render(request, 'view_image.html')
+
+    return render(request, 'view_other.html')
