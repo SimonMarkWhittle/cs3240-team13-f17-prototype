@@ -105,3 +105,6 @@ db.sqlite3
 
 # ignore things in uploads
 uploads/*
+
+# pycharm thing
+.idea/workspace.xml
