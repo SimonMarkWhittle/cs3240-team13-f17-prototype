@@ -17,4 +17,7 @@ def simple_upload(request):
 
 def display_upload(request, name, ext):
 
-    return render(request, 'view_upload.html')
+    if ext in ['.jpg', '.gif', '.png']:
+        return render(request, 'view_image.html')
+
+    return render(request, 'view_other.html')
